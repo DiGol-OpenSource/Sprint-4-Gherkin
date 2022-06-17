@@ -1,12 +1,12 @@
 Feature: Registrarse
 
-Scenario01: el usuario se registra 
+Scenario: el usuario se registra 
 
 Given dado que el usuario se encuentra en la sección de inicio de sesión
 When el usuario le de click a registrarse
 Then podrá registrarse exitosamente
 
-Scenario01: el usuario no logra registrarse 
+Scenario: el usuario no logra registrarse 
 
 Given dado que el usuario se encuentra en la sección de inicio de sesión
 When el usuario le de click a registrarse
